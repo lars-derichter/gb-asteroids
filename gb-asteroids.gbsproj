@@ -36,18 +36,18 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_SET_VALUE",
+                            "command": "EVENT_VARIABLE_MATH",
                             "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "rnd",
-                                    "value": {
-                                        "type": "number",
-                                        "value": 18
-                                    }
-                                }
+                                "vectorX": "L0",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "L0",
+                                "value": "0",
+                                "minValue": "0",
+                                "maxValue": 17,
+                                "clamp": false
                             },
-                            "id": "f0c27bbf-4ddc-4b1e-bbf6-a6cf2d9507e8"
+                            "id": "2b506b47-0999-444a-afda-21cef6dab4f6"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -85,18 +85,18 @@
                             "children": {
                                 "true": [
                                     {
-                                        "command": "EVENT_SET_VALUE",
+                                        "command": "EVENT_VARIABLE_MATH",
                                         "args": {
-                                            "variable": "L0",
-                                            "value": {
-                                                "type": "rnd",
-                                                "value": {
-                                                    "type": "number",
-                                                    "value": 18
-                                                }
-                                            }
+                                            "vectorX": "L0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": 17,
+                                            "clamp": false
                                         },
-                                        "id": "aae77d47-c7f4-479d-acaf-5db7c59739ea"
+                                        "id": "cbbb8a90-e1be-45f6-b73b-3329329e99d7"
                                     },
                                     {
                                         "command": "EVENT_ACTOR_SET_POSITION",
@@ -166,18 +166,18 @@
                             "id": "8bee401b-3b77-4b47-ac8f-918818bb63bb"
                         },
                         {
-                            "command": "EVENT_SET_VALUE",
+                            "command": "EVENT_VARIABLE_MATH",
                             "args": {
-                                "variable": "L0",
-                                "value": {
-                                    "type": "rnd",
-                                    "value": {
-                                        "type": "number",
-                                        "value": 18
-                                    }
-                                }
+                                "vectorX": "L0",
+                                "operation": "set",
+                                "other": "rnd",
+                                "vectorY": "L0",
+                                "value": "0",
+                                "minValue": "0",
+                                "maxValue": 17,
+                                "clamp": false
                             },
-                            "id": "f6234442-16b2-44cf-bdee-4f4fe2c74758"
+                            "id": "368daa46-a1c2-4710-ab8f-94a951be76a6"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_POSITION",
@@ -1228,7 +1228,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 674.5,
-        "worldScrollY": 23.5,
+        "worldScrollY": 0,
         "zoom": 200,
         "sgbEnabled": false,
         "customHead": "",
