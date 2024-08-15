@@ -152,3 +152,4 @@ $RECYCLE.BIN/
 
 # Ignore build directory
 build/
+*.gbsproj.bak
