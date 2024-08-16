@@ -1,6 +1,6 @@
 # Maak een game voor de Fri3d badge met GB Studio
 
-Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met GB Studio” gegeven door @lars-derichter &amp; @wannesdr op [Fried camp 2024](https://fri3d.be).
+Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met GB Studio” gegeven door [lars-derichter](https://github.com/lars-derichter) &amp; [wannesdr](https://github.com/wannesdr) op [Fried camp 2024](https://fri3d.be).
 
 - [Slides](https://lars-derichter.github.io/gb-asteroids/slides/): slides bij de workshop
 - [Releases](https://github.com/lars-derichter/gb-asteroids/releases): alle tussentijdse versies; als je vastloopt kan je de versie waaraan we werken downloaden en bekijken / verder aanpassen.
