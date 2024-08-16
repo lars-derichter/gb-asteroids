@@ -204,3 +204,78 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - Zelfde als Asteroide op Random positie zetten (tip gebruik copy event en paste event)
 - Add Event >> Actor >> Activate Actor
   - - Actor: Self (Asteroid 1)
+
+===
+
+## v0.1.0
+
+- betere afbeeldingen:
+  - Player sprite
+  - Asteroid sprite
+  - Laser sprite
+  - Background
+
+---
+
+### Sprites en spritesheets
+
+- **sprite:**
+  - kleine afbeelding in pixel art
+  - spelers en actoren voorstellen in games
+- **spritesheet:**
+  - grotere afbeelding die alle statussen van de sprite bevat (bijv. vooraanzicht, achteraanzicht, zijaanzicht)
+
+---
+
+### Sprites in GB Studio
+
+- png
+- 16 x 16 pixels
+- 3 kleuren + transparant (fluo groen)
+
+![Sprite colors](images/sprite-colors.png)
+
+---
+
+### Spritesheets in GB Studio
+
+- png
+- 16n x 16 pixels (n = aantal sprites in sheet)
+
+![Sprite sheet](images/sprite-sheet.png)
+
+---
+
+### Sprites en spritesheets maken
+
+- image editor
+- bijv. https://www.piskelapp.com/
+- mini-demo (meer info: spreek Wannes straks aan)
+
+---
+
+### Sprites importeren
+
+- Verplaats je sprites naar de subfolder assets/sprites van je project folder
+- **Tip:** het folder icoon 📁 rechtsbovenaan GB Studio brengt je naar je project folder
+
+---
+
+### Sprites aanpassen
+
+- Selecteer je scene
+- Klik op afbeelding bij Player Sprite Sheet en kies je afbeelding
+- Klik op Sprite Sheet bij Launch Projectile en kies je afbeelding
+- Selecteer de Asteroid 1 actor
+- Klik op afbeelding bij Sprite Sheet en kies je afbeelding
+-
+
+---
+
+### Achtergronden in GB Studio
+
+- PNG van minimaal 160x144 pixels
+- Achtergrond is opgedeeld in tiles van 8x8 pixels, die herhaald kunnen worden
+- Maximaal 192 unieke tiles per scene (geheugenbesparing)
+
+---
