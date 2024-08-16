@@ -402,3 +402,98 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 
 - **Probleem:** You have 0 lives is overbodig bij Game Over
 - Verplaatsen naar Else sectie van If-blok
+
+---
+
+## v0.3.0
+
+- Levens tonen
+- Score bijhouden en tonen bij Game Over
+
+---
+
+### Heart 1 op scherm toevoegen
+
+- Add Actor (rechtsbovenaan)
+- X: 18; Y: 1
+- Pin to screen: 📌
+- Hernoem naar Heart 1
+- Zet image naar hartje (Eerst in sprites folder plaatsen)
+
+---
+
+### Heart 2 & 3
+
+- Copy Paste (telkens wat meer naar links)
+- Pas namen aan: Heart 2 en Heart 3
+
+---
+
+### Hartjes verwijderen wanneer geraakt
+
+- Kan met 2 extra If-blokken
+- Maar properder: Switch (we doen andere dingen voor verschillende waarden van 1 variabele)
+- Bij On Player Hit: Add Event >> Control Flow >> Switch
+- Variable: $Lives
+- Number of options: 2
+- Pas Whens aan: 2, 1
+
+---
+
+- Bij When 2: Add Event >> Actor >> Hide Actor
+- Actor: Heart 3
+
+---
+
+Bij When 1: denk zelf eens na
+
+---
+
+Bij Else: sleep het event van het If-blok naar hier (Game Over)
+
+---
+
+Verwijder oorspronkelijk if-event (we zien onze levens nu met de hartjes)
+
+---
+
+### Score bijhouden
+
+- Hernoem Links Onder Variable 0 naar Score (rechtsklik >> rename)
+- Globale variabele want op verschillende plekken nodig (verschillende actoren en scenes)
+
+### Score bij begin op 0 zetten
+
+- Game Scene >> On Init >> Add Event
+- Variables >> Variable Set To Value
+- Variable: Score
+- Value: 0
+
+---
+
+### Score optellen
+
+- Bij Asteroid 1 >> On Hit >> Group 3
+- Add Event >> Variables >> Math Functions
+- Variable: Score
+- Operation: Add
+- Value: Value: 100
+- Sleep dit event tot net na Deactivate Self
+
+---
+
+### Score weergeven
+
+- Bij Game Over Scene >> On Init
+- Add Event >> Dialogue & Menus >> Display Dialogue
+- Text: Your Score\n$Score
+- (\n is nieuwe lijn)
+
+---
+
+### Eventuele uitbreidingen
+
+- Leventjes in 1 Actor met Spritesheet
+- Score weergeven in de scene met een HUD:
+
+zie README voor links naar tutorials
