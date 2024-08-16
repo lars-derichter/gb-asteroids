@@ -288,3 +288,61 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - Asteroids heeft slechts 1, kleine achtergrond nodig
 - Selecteer Scene >> Klik op afbeelding bij Background
 - Selecteer de juiste achtergrond
+
+===
+
+## v0.2.0
+
+- Player heeft 3 levens
+- Botsing met Asteroide:
+  - 1 leven eraf
+  - Shake Camera
+  - Hide Asteroid
+- Levens worden getoond
+- Game Over bij 0 levens
+
+---
+
+### 3 levens bij begin
+
+- Selecteer Scene
+- Bij On Init
+- Add Event >> Variables >> Variable Set To Value
+- Variable: Global >> Variable 0: hernoem naar Lives (we moeten deze variabele kunnen aanpassen buiten het Player object)
+- Value: 3
+
+---
+
+### Leven eraf bij botsing
+
+- Selecteer Asteroid 1
+- Bij On Hit >> Player
+- Add Event >> Variables >> Variable Decrement by 1
+- Variable: Lives
+
+---
+
+### Shake Camera
+
+- Add Event >> Camera >> Camera Shake
+
+---
+
+### Hide Asteroid
+
+- Add Event >> Actor >> Hide Actor
+- Actor: Self (Asteroid 1)
+
+---
+
+### Unhide Asteroid
+
+- Probleem: Asteroid blijft hidden
+- Oplossing in Respawn bij positie check Show event toevoegen
+- (Probeer dit zelf)
+
+---
+
+### Game Over bij 0 levens
+
+-
