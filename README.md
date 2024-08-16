@@ -8,16 +8,16 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
 - [Download GB Studio](https://chrismaltby.itch.io/gb-studio)
 - [GB Studio documentatie](https://www.gbstudio.dev/)
 
-## Sprites om te downloaden
+## Sprites/Backgrounds om te downloaden
 
-- ![spaceship alt 1](downloads/spaceship_1.png)
-- ![spaceship alt 2](downloads/spaceship_2.png)
-- ![spaceship alt 3](downloads/spaceship_3.png)
-- ![spaceship alt 4](downloads/spaceship_4.png)
-- ![spaceship alt 5](downloads/spaceship_5.png)
-- ![asteroid 1](downloads/asteroid_1.png)
-- ![asteroid 2](downloads/asteroid_2.png)
-- ![laser](downloads/laser.png)
+- Spaceship alternative 1: ![spaceship alt 1](downloads/spaceship_1.png)
+- Spaceship alternative 1: ![spaceship alt 2](downloads/spaceship_2.png)
+- Spaceship alternative 1: ![spaceship alt 3](downloads/spaceship_3.png)
+- Spaceship alternative 1: ![spaceship alt 4](downloads/spaceship_4.png)
+- Spaceship alternative 1: ![spaceship alt 5](downloads/spaceship_5.png)
+- Asteroid alternative 1: ![asteroid 1](downloads/asteroid_1.png)
+- Asteroid alternative 2: ![asteroid 2](downloads/asteroid_2.png)
+- Laser: ![laser](downloads/laser.png)
 
 ## Extra tools
 
