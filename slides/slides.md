@@ -503,7 +503,7 @@ zie README voor links naar tutorials
 ## v0.4.0 Levels
 
 - Snellere Asteroide
-- Extra Asteroides (maximaal 3)
+- Extra Asteroides
 
 ---
 
