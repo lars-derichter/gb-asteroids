@@ -18,6 +18,7 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
 - Asteroid alternative 1: ![asteroid 1](downloads/asteroid_1.png)
 - Asteroid alternative 2: ![asteroid 2](downloads/asteroid_2.png)
 - Laser: ![laser](downloads/laser.png)
+- Heart: ![heart](downloads/heart.png)
 - [Achtergrond](downloads/background.png)
 - [Game Over](downloads/game-over.png)
 
