@@ -21,6 +21,18 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
 - [Achtergrond](downloads/background.png)
 - [Game Over](downloads/game-over.png)
 
+## Eventuele uitbreidingen
+
+### Leventjes met 1 actor weergeven
+
+- [Basics: Creating a HUD | GB Studio Central](https://gbstudiocentral.com/tips/basics-creating-a-hud/)
+- [GB Studio - UI Health System - Zelda Combat | Robert Doman Video Tutorial](https://youtu.be/Lgk2CtUUjzY)
+
+### Score weergeven in HUD
+
+- [How to make a HUD in GB Studio (this is a game changer) | Robert Doman Video Tutorial](https://youtu.be/9lL1Ze6Ngg8)
+- [How to make an overlay HUD with GBVM, part one. | GB Studio Lab](https://gbstudiolab.neocities.org/guides/gbvm-overlay-hud)
+
 ## Extra tools
 
 ### Piskel om pixel art te maken
