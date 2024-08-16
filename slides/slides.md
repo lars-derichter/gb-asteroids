@@ -177,7 +177,7 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 
 ---
 
-### Asteroide respwant wanneer onderaan
+### Asteroide respawnt wanneer onderaan
 
 - Meten of Asteroide onderaan is:
   - On Update
@@ -297,8 +297,8 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - Botsing met Asteroide:
   - 1 leven eraf
   - Shake Camera
-  - Hide Asteroid
-- Levens worden getoond
+  - Deactivate and respawn Asteroid
+  - Dialogue: You have … lives
 - Game Over bij 0 levens
 
 ---
@@ -308,15 +308,15 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - Selecteer Scene
 - Bij On Init
 - Add Event >> Variables >> Variable Set To Value
-- Variable: Global >> Variable 0: hernoem naar Lives (we moeten deze variabele kunnen aanpassen buiten het Player object)
+- Variable: Local 0: hernoem naar Lives
 - Value: 3
 
 ---
 
 ### Leven eraf bij botsing
 
-- Selecteer Asteroid 1
-- Bij On Hit >> Player
+- Selecteer Scene
+- Bij On Player Hit >> Group 1 (= Collision Group van Asteroid 1)
 - Add Event >> Variables >> Variable Decrement by 1
 - Variable: Lives
 
@@ -328,21 +328,77 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 
 ---
 
-### Hide Asteroid
+### Display lives
 
-- Add Event >> Actor >> Hide Actor
-- Actor: Self (Asteroid 1)
+- Add Event >> Dialogue & Menus >> Display Dialogues
+- Text: You have $Lives Lives
 
 ---
 
-### Unhide Asteroid
+### Asteroid deactiveren
 
-- Probleem: Asteroid blijft hidden
-- Oplossing in Respawn bij positie check Show event toevoegen
-- (Probeer dit zelf)
+- **Probleem:** Als we Asteroid niet deactiveren: multiple hits
+- **Oplossing:**
+  - Selecteer Asteroid 1 >> On Hit >> Player
+  - Voeg deactivate en respawn code toe
+
+---
+
+### Game Over scene
+
+- Bewaar game-over.png in folder assets/backgrounds
+- Druk op + bij Tools
+- Selecteer Scene
+- Klik in de Scene overview
+- Klik op afbeelding bij background en selecteer de juiste
+- Hernoem je scene naar Game Over (bovenaan op Scene 2 klikken)
 
 ---
 
 ### Game Over bij 0 levens
 
--
+- Ga terug naar de Asteroid collision
+- Add Event >> Control Flow >> If
+- Condition: Lives
+- == : 0
+
+---
+
+- Add Event (in het If block)
+- Scene >> Change Scene
+- Scene: Game Over
+- Verplaats het respawnen naar het Else block
+
+---
+
+## Optimalisaties
+
+- **Pobleem:** Player op het scherm
+- Bij On Init
+- Add Event >> Actor >> Hide All Sprites
+
+---
+
+- **Probleem:** We geraken niet uit Game Over
+- Add Event >> Joypad Input >> Attach Script to Button
+- Selecteer Start
+- Add Event >> Scene >> Change Scene
+- Scene: Scene 1 (of Game)
+- X: 9
+- Y: 16
+- Direction: 🔼
+
+---
+
+- **Probleem:** Actor blijft hidden
+- In Game scene bij On Init: Add Event >> Actor >> Show All Sprites
+
+---
+
+- **Probleem:** Hit blijft verschijnen
+- Dialogue Event verwijderen
+
+---
+
+- **Probleem:** You have 0 lives is overbodig bij Game Over
+- Verplaatsen naar Else sectie van If-blok
