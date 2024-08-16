@@ -268,7 +268,6 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - Klik op Sprite Sheet bij Launch Projectile en kies je afbeelding
 - Selecteer de Asteroid 1 actor
 - Klik op afbeelding bij Sprite Sheet en kies je afbeelding
--
 
 ---
 
@@ -277,5 +276,15 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - PNG van minimaal 160x144 pixels
 - Achtergrond is opgedeeld in tiles van 8x8 pixels, die herhaald kunnen worden
 - Maximaal 192 unieke tiles per scene (geheugenbesparing)
+- In subfolder assets/backgrounds van project folder
+- 4 kleuren (geen transparantie)
+
+![background colors](images/background-colors.png)
 
 ---
+
+### Achtergrond instellen
+
+- Asteroids heeft slechts 1, kleine achtergrond nodig
+- Selecteer Scene >> Klik op afbeelding bij Background
+- Selecteer de juiste achtergrond
