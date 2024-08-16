@@ -497,3 +497,67 @@ Verwijder oorspronkelijk if-event (we zien onze levens nu met de hartjes)
 - Score weergeven in de scene met een HUD:
 
 zie README voor links naar tutorials
+
+---
+
+## v0.4.0 Levels
+
+- Snellere Asteroide
+- Extra Asteroides (maximaal 3)
+
+---
+
+### Plaats levelcode
+
+- We moeten alle code ivm levels in de On Update routine van een actor zetten. Meest logische keuze: Asteroid 1
+- We zullen meerdere levels hebben, afhankelijk van de Score -> Switch is hier geschikt voor
+- Bij Asteroid 1 >> On Update: Add Event >> Control Flow >> Switch
+- Variable: Score
+
+---
+
+### Level 2: Asteroide versnellen
+
+- Na 4 rake hits (Score: 400) versnellen we
+- Eerste When: Value: 400
+  - Add Event >> Set Actor Movement Speed
+  - Actor: Self (Asteroid 1)
+  - Speed: Speed 1
+
+---
+
+### Level 3: Extra Asteroide
+
+- Copy-Paste Asteroid 1
+- Er is nu wel een variabele Asteroid1_X wat stom is:
+  - dit is een lokale variabele en dus automatisch onzichtbaar voor de andere Asteroiden
+  - we werken graag netjes -> we passen dit bij beide Asteroides aan
+- Sprite Sheet eventueel aanpassen
+- Switch statement met Score verwijderen (alle level stuff op Asteroid 1)
+
+---
+
+### Extra Asteroide deactiveren en activeren
+
+- Scene >> On Init: Actor deactiveren (je weet hoe)
+- In het Switch Statement bij Asteroid 1:
+  - 2de When: 700
+  - Add Event >> Actor >> Activate Actor
+  - Actor: Asteroid 2
+
+---
+
+### Extra Levels
+
+- Je kan Switch waarden bijmaken
+  - Je kan één of meerdere Asteroiden bijmaken
+  - Je kan één of meer Asteroiden versnellen
+
+---
+
+### Bedankt
+
+- Bedankt voor jullie aandacht
+- Presentatie, downloads en alle info op https://github.com/lars-derichter/gb-asteroids
+- lars.derichter@gmail.com
+- wannes.derichter@gmail.com
