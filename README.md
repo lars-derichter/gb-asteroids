@@ -14,10 +14,10 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
 ## Sprites/Backgrounds om te downloaden
 
 - Spaceship alternative 1: ![spaceship alt 1](downloads/spaceship_1.png)
-- Spaceship alternative 1: ![spaceship alt 2](downloads/spaceship_2.png)
-- Spaceship alternative 1: ![spaceship alt 3](downloads/spaceship_3.png)
-- Spaceship alternative 1: ![spaceship alt 4](downloads/spaceship_4.png)
-- Spaceship alternative 1: ![spaceship alt 5](downloads/spaceship_5.png)
+- Spaceship alternative 2: ![spaceship alt 2](downloads/spaceship_2.png)
+- Spaceship alternative 3: ![spaceship alt 3](downloads/spaceship_3.png)
+- Spaceship alternative 4: ![spaceship alt 4](downloads/spaceship_4.png)
+- Spaceship alternative 5: ![spaceship alt 5](downloads/spaceship_5.png)
 - Asteroid alternative 1: ![asteroid 1](downloads/asteroid_1.png)
 - Asteroid alternative 2: ![asteroid 2](downloads/asteroid_2.png)
 - Laser: ![laser](downloads/laser.png)
@@ -35,7 +35,7 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
   - X
   - Wifi Opties
   - Wifi Access point
-  - Verbind je laptop met deze hotspot
+  - Verbind je laptop met deze hotspot (kies verschillende SSIDS; paswoord: retro-go)
   - Surf naar: http://192.168.4.1/
   - Je kan de bestanden op de badge beheren
 
@@ -67,7 +67,7 @@ Voor GameBoy Color en Super GameBoy is er een colormode waarbij je verschillende
 - [GB Studio - Music Tutorial Intro | Robert Doman Video Tutorial](https://youtu.be/cLlD6lHdKxsJ)
 - [GB Studio Music Editor Tutorial | Yogi Video Tutorial](https://youtu.be/WNtTF7jf4WE)
 
-### Betere randomness
+### Betere random
 
 - [When Random Is NOT Random | GB Studio Central](https://gbstudiocentral.com/tips/when-random-is-not-random/)
 - [The Problem with Random | GB Studio Central](https://gbstudiocentral.com/tips/the-problem-with-random/)
