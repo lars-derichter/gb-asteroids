@@ -488,8 +488,9 @@ Verwijder oorspronkelijk if-event (we zien onze levens nu met de hartjes)
 
 - Bij Game Over Scene >> On Init
 - Add Event >> Dialogue & Menus >> Display Dialogue
-- Text: Your Score\n$Score
-- (\n is nieuwe lijn)
+- Text:  
+  Your Score  
+  $Score
 
 ---
 
