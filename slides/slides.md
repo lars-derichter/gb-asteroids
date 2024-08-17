@@ -173,7 +173,7 @@ Nu willen we de A en B knoppen aanpassen: probeer zelf!
 - X: $Asteroid1_X (eerst op # drukken)
 - Y: 0
 
-(je zal merken dat het niet helemaal random is, dat fixen we later misschien)
+(je zal merken dat het niet helemaal random is)
 
 ---
 

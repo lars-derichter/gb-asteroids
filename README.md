@@ -67,6 +67,11 @@ Voor GameBoy Color en Super GameBoy is er een colormode waarbij je verschillende
 - [GB Studio - Music Tutorial Intro | Robert Doman Video Tutorial](https://youtu.be/cLlD6lHdKxsJ)
 - [GB Studio Music Editor Tutorial | Yogi Video Tutorial](https://youtu.be/WNtTF7jf4WE)
 
+### Betere randomness
+
+- [When Random Is NOT Random | GB Studio Central](https://gbstudiocentral.com/tips/when-random-is-not-random/)
+- [The Problem with Random | GB Studio Central](https://gbstudiocentral.com/tips/the-problem-with-random/)
+
 ## Tutorials en HowTos
 
 - [GB Studio Central](https://gbstudiocentral.com/)
