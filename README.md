@@ -31,7 +31,7 @@ Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met 
 
 - Via de micro SD kaart (makkelijkst)
 - Via hotspot:
-  - Retrogo openen op Badge
+  - RetroGo openen op Badge
   - X
   - Wifi Opties
   - Wifi Access point

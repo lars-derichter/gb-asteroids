@@ -555,7 +555,36 @@ zie README voor links naar tutorials
 
 ---
 
-### Bedankt
+## Spel exporteren
+
+- Druk rechtsbovenaan op het export icoon
+- Kies export ROM
+- GB Studio opent de folder met bestanden
+- Het .gb bestand bevat je gecompileerde spel
+
+---
+
+## Spel op badge zetten
+
+- Via de micro SD kaart (makkelijkst)
+- Via hotspot:
+  - RetroGo openen op Badge
+  - X
+  - Wifi Opties
+  - Wifi Access point
+  - Verbind je laptop met deze hotspot
+  - Surf naar: http://192.168.4.1/
+  - Je kan de bestanden op de badge beheren
+
+---
+
+## Extra tip
+
+Zet best geen elementen helemaal in de hoeken van je scherm, omwille van de afgeronde hoeken van het badge scherm. Je zal merken dat Heart 1 niet helemaal zichtbaar is en ook de score is moeiljk leesbaar.
+
+---
+
+## Bedankt
 
 - Bedankt voor jullie aandacht
 - Presentatie, downloads en alle info op https://github.com/lars-derichter/gb-asteroids
