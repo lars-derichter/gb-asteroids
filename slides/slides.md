@@ -590,3 +590,5 @@ Zet best geen elementen helemaal in de hoeken van je scherm, omwille van de afge
 - Presentatie, downloads en alle info op https://github.com/lars-derichter/gb-asteroids
 - lars.derichter@gmail.com
 - wannes.derichter@gmail.com
+
+Vergeet niet om te blijven hacken! Try, Fail, Try Again, Fail Better!
