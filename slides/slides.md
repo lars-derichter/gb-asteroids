@@ -462,6 +462,8 @@ Verwijder oorspronkelijk if-event (we zien onze levens nu met de hartjes)
 - Hernoem Links Onder Variable 0 naar Score (rechtsklik >> rename)
 - Globale variabele want op verschillende plekken nodig (verschillende actoren en scenes)
 
+---
+
 ### Score bij begin op 0 zetten
 
 - Game Scene >> On Init >> Add Event
