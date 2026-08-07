@@ -1,0 +1,19 @@
+{
+  "name": "gb-asteroids-slides",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.10.1",
+    "slidev-theme-ldr": "github:lars-derichter/ldr-slidev-theme#v1.2.0",
+    "vue": "^3.5.25"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.3",
+    "prettier-plugin-slidev": "^1.0.5"
+  }
+}
