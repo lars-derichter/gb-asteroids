@@ -3,7 +3,7 @@ theme: ldr
 title: Maak je eigen game met GB Studio
 info: |
   Workshop: maak een Asteroids-kloon voor de Fri3d badge met GB Studio.
-  Gegeven door Lars & Wannes De Richter op Fri3d Camp 2024.
+  Gegeven door Lars & Wannes De Richter op Fri3d Camp 2024 en 2026.
   &copy; Lars De Richter
 transition: slide-left
 mdc: true
@@ -11,7 +11,7 @@ mdc: true
 layout: cover
 eyebrow: Workshop
 presenter: Lars & Wannes De Richter
-affiliation: Fri3d Camp 2024
+affiliation: Fri3d Camp 2026
 ---
 
 # Maak je eigen game met GB Studio

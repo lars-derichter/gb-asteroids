@@ -42,7 +42,7 @@ Botsen mag, maar niet eindeloos.
 
 ---
 
-## Shake Camera
+## Camera Shake
 
 Add Event >> Camera >> Camera Shake
 
@@ -50,7 +50,7 @@ Add Event >> Camera >> Camera Shake
 
 ## Display lives
 
-- Add Event >> Dialogue & Menus >> Display Dialogues
+- Add Event >> Dialogue & Menus >> Display Dialogue
 - Text: You have $Lives Lives
 
 ---

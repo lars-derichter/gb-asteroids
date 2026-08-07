@@ -46,7 +46,7 @@ _Test na elke verandering._
 ## Player instellen
 
 - Start position:
-  - X: 9 — midden horizontaal (18 posities: 0 - 17; 0 helemaal links)
+  - X: 9 — midden horizontaal (20 posities: 0 - 19; 0 helemaal links)
   - Y: 16 — onderaan (18 posities: 0 - 17; 0 helemaal bovenaan)
 - Direction: 🔼 (speler kijkt naar boven)
 

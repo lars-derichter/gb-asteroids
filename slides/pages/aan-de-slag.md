@@ -14,7 +14,8 @@ Installeer GB Studio en open een sample project om rond te kijken.
 ## Installatie
 
 - Download en installeer de versie van GB Studio voor jouw besturingssysteem: [chrismaltby.itch.io/gb-studio](https://chrismaltby.itch.io/gb-studio)
-- Deze tutorial is gemaakt met v4.0.2 en zou dus met alle 4.x versies moeten werken
+- Deze tutorial is gemaakt met v4.0.2 en getest met v4.3.2; alle 4.x versies werken
+- Download je een tussenversie uit de repo, dan zet GB Studio die bij het opslaan automatisch om naar het nieuwe projectformaat
 
 ---
 

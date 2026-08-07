@@ -19,35 +19,37 @@ Van GB Studio naar de badge in je hand.
 - Het .gb bestand bevat je gecompileerde spel
 
 ---
-layout: two-cols-ldr
+
+## Spel op de badge zetten (badge 2026)
+
+- Formatteer een micro SD kaart als FAT32 (kan op de badge zelf: Settings >> Format sdcard FAT32)
+- Maak op de kaart de folder roms/gb en kopieer je .gb bestand erin
+- Steek de kaart in de badge
+- Open Retro Core Launcher >> Gameboy >> kies je spel
+- De badge herstart in de emulator; met de reset-knop kom je terug in het menu
+
+<hr class="ldr-rule-maple" />
+
+_Zit er een SD-kaart in de badge, dan zie je enkel de spellen op de kaart — de ROMs in het interne geheugen zijn dan onzichtbaar._
+
 ---
 
-## Spel op badge zetten
+## Badge 2024 met originele firmware
 
-::left::
+Enkel op een 2024-badge met de originele firmware werkt naast de SD-kaart ook de hotspot:
 
-Via de micro SD kaart {.eyebrow.sage}
-
-Makkelijkst: kopieer het .gb bestand rechtstreeks naar de kaart.
-
-::right::
-
-Via hotspot {.eyebrow.maple}
-
-- RetroGo openen op de badge
-- X
-- Wifi Opties
-- Wifi Access point
-- Verbind je laptop met deze hotspot
+- Open Retro-Go op de badge
+- X >> Wi-Fi options >> Wi-Fi Access Point (kies een van de SSID's)
+- Verbind je laptop met deze hotspot (paswoord indien gevraagd: retro-go)
 - Surf naar [192.168.4.1](http://192.168.4.1/)
-- Je kan de bestanden op de badge beheren
+- Zet je .gb bestand in de folder roms/gb
 
 ---
 
 ## Extra tip
 
-Zet geen elementen helemaal in de hoeken van je scherm, omwille van de afgeronde hoeken van het badge scherm.
+Zet geen elementen helemaal in de hoeken van je scherm — het scherm van de 2024-badge heeft afgeronde hoeken.
 
 <hr class="ldr-rule-maple" />
 
-_Je zal merken dat Heart 1 niet helemaal zichtbaar is, en dat de score moeilijk leesbaar is._
+_Op de 2024-badge zal je merken dat Heart 1 niet helemaal zichtbaar is, en dat de score moeilijk leesbaar is._

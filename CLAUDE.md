@@ -6,8 +6,8 @@ code in this repository.
 ## Project overview
 
 Material for the workshop "Maak een game voor de Fri3d badge met GB Studio",
-given by Lars & Wannes De Richter at Fri3d Camp 2024. The repo holds two
-separate things:
+given by Lars & Wannes De Richter at Fri3d Camp 2024 and 2026. The repo holds
+two separate things:
 
 - **The game** — `gb-asteroids.gbsproj` plus `assets/`, a
   [GB Studio](https://www.gbstudio.dev/) 4.x project that compiles to a Game Boy
