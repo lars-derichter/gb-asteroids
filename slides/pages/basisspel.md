@@ -30,6 +30,33 @@ eyebrow: Stap 1
 ### New, blank project
 
 ---
+layout: image-full
+image: /no-scene.png
+fit: contain
+eyebrow: Er is nog geen scene
+---
+
+### No scene
+
+---
+layout: image-full
+image: /plus-scene.png
+fit: contain
+eyebrow: "+ >> Scene"
+---
+
+### Scene toevoegen
+
+---
+layout: image-full
+image: /place-scene.png
+fit: contain
+eyebrow: "Klik ergens in de scene overview"
+---
+
+### Scene plaatsen
+
+---
 
 ## Test het spel
 
@@ -45,10 +72,11 @@ _Test na elke verandering._
 
 ## Player instellen
 
+- (Als klikken niet lukt om te selecteren, beetje verslepen)
 - Start position:
   - X: 9 — midden horizontaal (20 posities: 0 - 19; 0 helemaal links)
   - Y: 16 — onderaan (18 posities: 0 - 17; 0 helemaal bovenaan)
-- Direction: 🔼 (speler kijkt naar boven)
+- Direction: 🔼 (speler kijkt naar boven, bij beweging kijkt naar opzij)
 
 ---
 
@@ -80,7 +108,7 @@ _Probeer zelf._
 - Druk op Add Event bij On Press
 - Kies Actor
 - Kies Launch Projectile
-- Direction: activeer enkel 🔼
+- Source >> Direction: activeer enkel 🔼
 
 ---
 
@@ -114,7 +142,7 @@ Oplossing {.eyebrow.sage}
 
 - On Init >> Add Event
 - Variable >> Math Functions
-- Variable: Local 0 >> hernoem naar Asteroid1_X (hover over de naam en ✎)
+- Variable: Global 0 >> hernoem naar Asteroid1_X (hover over de naam en ✎)
 - Value: Random
 - Min Value: 0; Max Value: 17
 
@@ -139,7 +167,7 @@ _Je zal merken dat het niet helemaal random is._
 - Meten of de asteroide onderaan is:
   - On Update
   - Add Event >> Actor >> If Actor at Position
-  - X: $Asteroid1_X (verandert niet); Y: 17 (onderste positie)
+  - X: Tile X (bij Property); Y: 17 (onderste positie)
 - If deel: zelfde als asteroide op random positie zetten
 - Else deel: Self Move Relative hierin slepen
 
@@ -147,8 +175,8 @@ _Je zal merken dat het niet helemaal random is._
 
 ## Asteroide respawnt wanneer geraakt
 
-- On Hit >> Group 3 (= Collision Group van Projectile)
 - Collision Group: 1 (= Collide With van Projectile)
+- On Hit >> Group 3 (= Collision Group van Projectile)
 - Add Event >> Display Dialogue:
   - Hit (of Geraakt of …)
 - Add Event >> Actor >> Deactivate Actor
