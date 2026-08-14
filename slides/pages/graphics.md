@@ -87,7 +87,7 @@ _Het folder icoon 📁 rechtsbovenaan GB Studio brengt je naar je project folder
 
 - Selecteer je scene
 - Klik op afbeelding bij Player Sprite Sheet en kies je afbeelding
-- Klik op Sprite Sheet bij Launch Projectile en kies je afbeelding
+- Klik op Sprite Sheet bij Launch Projectile (in het script) en kies je afbeelding
 - Selecteer de Asteroid 1 actor
 - Klik op afbeelding bij Sprite Sheet en kies je afbeelding
 
