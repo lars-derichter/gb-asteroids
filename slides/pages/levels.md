@@ -40,18 +40,17 @@ Hoe hoger de score, hoe lastiger het wordt.
 ## Level 3: extra asteroide
 
 - Copy-Paste Asteroid 1
-- Er is nu wel een variabele Asteroid1_X, wat stom is:
-  - dit is een lokale variabele en dus automatisch onzichtbaar voor de andere asteroides
-  - we werken graag netjes, dus passen we dit bij beide asteroides aan
+- Hernoem naar Asteroid 2
+- We moeten een nieuwe variabele Asteroid2_X maken en overal aanpassen in de code voor Asy-teroid 2
 - Sprite Sheet eventueel aanpassen
-- Switch statement met Score verwijderen (alle level stuff op Asteroid 1)
+- Switch statement met Score verwijderen (alle level stuff blijft op Asteroid 1)
 
 ---
 
 ## Extra asteroide deactiveren en activeren
 
 - Scene >> On Init: Actor deactiveren (je weet hoe)
-- In het Switch statement bij Asteroid 1:
+- In het Switch statement bij Asteroid 1 (On Update):
   - 2de When: 700
   - Add Event >> Actor >> Activate Actor
   - Actor: Asteroid 2
