@@ -69,6 +69,7 @@ eyebrow: Sprites
 - Image editor
 - Bijvoorbeeld [piskelapp.com](https://www.piskelapp.com/)
 - Mini-demo — meer info: spreek Wannes straks aan
+- <a href="https://raw.githubusercontent.com/lars-derichter/gb-asteroids/refs/heads/master/downloads/gb-studio-piskel-sprites-palette.gpl" download>Piskel palet voor GB Studio</a>
 
 ---
 

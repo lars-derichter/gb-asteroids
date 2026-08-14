@@ -1,7 +1,7 @@
 # Maak een game voor de Fri3d badge met GB Studio
 
-Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met
-GB Studio” gegeven door [lars-derichter](https://github.com/lars-derichter) &
+Code, voorbeelden en slides bij de workshop: “Maak een game voor de badge met GB
+Studio” gegeven door [lars-derichter](https://github.com/lars-derichter) &
 [wannesdr](https://github.com/wannesdr) op [Fri3d Camp](https://fri3d.be) 2024
 en 2026.
 
@@ -19,7 +19,7 @@ en 2026.
 - [Download GB Studio](https://chrismaltby.itch.io/gb-studio)
 - [GB Studio documentatie](https://www.gbstudio.dev/docs)
 
-## Sprites/Backgrounds om te downloaden
+## Sprites/Backgrounds/Palet om te downloaden
 
 - Spaceship alternative 1: ![spaceship alt 1](downloads/spaceship_1.png)
 - Spaceship alternative 2: ![spaceship alt 2](downloads/spaceship_2.png)
@@ -32,6 +32,8 @@ en 2026.
 - Heart: ![heart](downloads/heart.png)
 - [Achtergrond](downloads/background.png)
 - [Game Over](downloads/game-over.png)
+- <a href="https://raw.githubusercontent.com/lars-derichter/gb-asteroids/refs/heads/master/downloads/gb-studio-piskel-sprites-palette.gpl" download>Piskel
+  palet</a>
 
 [All in one zip](downloads/all-in-one.zip)
 
@@ -49,15 +51,15 @@ Launcher. De micro SD kaart is de betrouwbare weg:
   spel
 - De badge herstart in de emulator; met de reset-knop kom je terug in het menu
 
-Let op: zit er een SD-kaart in de badge, dan toont de launcher enkel de
-spellen op de kaart — de ROMs in het interne geheugen zijn dan onzichtbaar.
+Let op: zit er een SD-kaart in de badge, dan toont de launcher enkel de spellen
+op de kaart — de ROMs in het interne geheugen zijn dan onzichtbaar.
 
 - [Badge 2026 documentatie](https://fri3dcamp.github.io/badge_2026/badge/)
 
 ### Badge 2024 (originele firmware)
 
-Op een 2024-badge met de originele firmware werkt naast de micro SD kaart ook
-de hotspot:
+Op een 2024-badge met de originele firmware werkt naast de micro SD kaart ook de
+hotspot:
 
 - Open Retro-Go op de badge
 - X >> Wi-Fi options >> Wi-Fi Access Point (kies een van de SSID's)
@@ -85,22 +87,23 @@ https://fri3dcamp.github.io/badge_2024/Retro--Go-Gaming/
 
 ### Meer kleuren met Color Mode
 
-Voor GameBoy Color en Super GameBoy is er een colormode waarbij je
-verschillende sprites en backgrounds elk met hun eigen kleurenpalet kan laten
-werken om zo meer kleuren te gebruiken.
+Voor GameBoy Color en Super GameBoy is er een colormode waarbij je verschillende
+sprites en backgrounds elk met hun eigen kleurenpalet kan laten werken om zo
+meer kleuren te gebruiken.
 
-- [Settings | GB Studio documentatie](https://www.gbstudio.dev/docs/settings/)
-  & [Palettes | GB Studio documentatie](https://www.gbstudio.dev/docs/assets/palettes/)
+- [Settings | GB Studio documentatie](https://www.gbstudio.dev/docs/settings/) &
+  [Palettes | GB Studio documentatie](https://www.gbstudio.dev/docs/assets/palettes/)
 - [Game Boy Color Modes | GB Studio Central](https://gbstudiocentral.com/tips/game-boy-color-modes/)
 - [Development Workflow – Chapter 9: Creating a Color Palette (Part 1) | GB Studio Central](https://gbstudiocentral.com/tips/dwf-c9-creating-a-color-palette-part-1/)
-  & [Development Workflow – Chapter 9: Creating a Color Palette (Part 2) | GB Studio Central](https://gbstudiocentral.com/tips/dwf-c9-creating-a-color-palette-part-2/)
+  &
+  [Development Workflow – Chapter 9: Creating a Color Palette (Part 2) | GB Studio Central](https://gbstudiocentral.com/tips/dwf-c9-creating-a-color-palette-part-2/)
 
 ### Sound effects en muziek
 
 - [Music | GB Studio documentation](https://www.gbstudio.dev/docs/assets/music/)
 - [Sound effects | GB Studio documentation](https://www.gbstudio.dev/docs/assets/sound-effects)
-- [GBS Music](https://music.gbstudio.dev/): de officiële GB Studio music
-  editor als web app — componeren in de browser, ook op tablet of telefoon
+- [GBS Music](https://music.gbstudio.dev/): de officiële GB Studio music editor
+  als web app — componeren in de browser, ook op tablet of telefoon
 - [GB Studio - Music Tutorial Intro | Robert Doman Video Tutorial](https://youtu.be/cLlD6lHdKxs)
 - [GB Studio Music Editor Tutorial | Yogi (Tronimal) Video Tutorial](https://youtu.be/WNtTF7jf4WE)
   (gemaakt met GB Studio 3.1; de music editor is in 4.3 grondig vernieuwd)
@@ -115,13 +118,13 @@ werken om zo meer kleuren te gebruiken.
 - [How to make a Game Boy SHMUP with GB Studio without losing your mind | GB Studio Central](https://gbstudiocentral.com/tips/how-to-make-a-game-boy-shmup-with-gb-studio-without-losing-your-mind/):
   over de limieten van projectiles en actors, en hoe je er omheen werkt
 - [GB Studio Tutorial: Vertical Scrolling Shooter | codePetersen](https://www.youtube.com/watch?v=zCjQOwIdCN0):
-  11-delige videoreeks (GB Studio 4) die een volledige verticale shooter
-  bouwt, met Piskel en Tiled
+  11-delige videoreeks (GB Studio 4) die een volledige verticale shooter bouwt,
+  met Piskel en Tiled
 
 ## Tutorials en HowTos
 
-- [GB Studio Central](https://gbstudiocentral.com/): archief met 300+
-  artikels (sinds mei 2026 verschijnen er geen nieuwe, de site blijft online)
+- [GB Studio Central](https://gbstudiocentral.com/): archief met 300+ artikels
+  (sinds mei 2026 verschijnen er geen nieuwe, de site blijft online)
 - [Robert Doman | Youtube](https://www.youtube.com/@RobertDoman)
 - [codePetersen | Youtube](https://www.youtube.com/@codepetersen)
 
@@ -135,7 +138,8 @@ werken om zo meer kleuren te gebruiken.
 ### Tiled map editor om backgrounds te maken
 
 - https://www.mapeditor.org/
-- Gebruik voor GB Studio: [Vertical Scrolling Shooter Part 4: TileMaps & Levels | codePetersen Video Tutorial](https://www.youtube.com/watch?v=BhUIvzQ_pY8)
+- Gebruik voor GB Studio:
+  [Vertical Scrolling Shooter Part 4: TileMaps & Levels | codePetersen Video Tutorial](https://www.youtube.com/watch?v=BhUIvzQ_pY8)
 
 ## Dankwoord
 
