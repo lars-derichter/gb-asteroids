@@ -41,7 +41,7 @@ Hoe hoger de score, hoe lastiger het wordt.
 
 - Copy-Paste Asteroid 1
 - Hernoem naar Asteroid 2
-- We moeten een nieuwe variabele Asteroid2_X maken en overal aanpassen in de code voor Asy-teroid 2
+- We moeten een nieuwe variabele Asteroid2_X maken en overal aanpassen in de code voor Asteroid 2
 - Sprite Sheet eventueel aanpassen
 - Switch statement met Score verwijderen (alle level stuff blijft op Asteroid 1)
 
