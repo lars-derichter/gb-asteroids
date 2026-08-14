@@ -28,15 +28,15 @@ Botsen mag, maar niet eindeloos.
 - Selecteer Scene
 - Bij On Init
 - Add Event >> Variables >> Variable Set To Value
-- Variable: Local 0 — hernoem naar Lives
+- Variable: Variable 1 (bij Global) — hernoem naar Lives
 - Value: 3
 
 ---
 
 ## Leven eraf bij botsing
 
-- Selecteer Scene
-- Bij On Player Hit >> Group 1 (= Collision Group van Asteroid 1)
+- Selecteer Asteroide
+- Bij On Hit >> Player
 - Add Event >> Variables >> Variable Decrement by 1
 - Variable: Lives
 
@@ -64,7 +64,8 @@ Als we de asteroide niet deactiveren, telt één botsing meerdere keren.
 Oplossing {.eyebrow.sage}
 
 - Selecteer Asteroid 1 >> On Hit >> Player
-- Voeg deactivate en respawn code toe
+- Voeg deactivate toe (zet die als eerste)
+- Voeg de respawn code toe na de Dialogue (zonder wait, dialogue wacht sowieso)
 
 ---
 
@@ -93,7 +94,7 @@ Oplossing {.eyebrow.sage}
 - Add Event (in het If block)
 - Scene >> Change Scene
 - Scene: Game Over
-- Verplaats het respawnen naar het Else block
+- Verplaats de andere code naar het Else-block
 
 ---
 layout: section
@@ -145,7 +146,8 @@ In de Game scene bij On Init: Add Event >> Actor >> Show All Sprites
 
 Oplossing {.eyebrow.sage}
 
-Dialogue Event verwijderen
+- Goed om te testen, niet goed voor het spel
+- Dialogue Event met Hit verwijderen
 
 ---
 
@@ -153,4 +155,4 @@ Dialogue Event verwijderen
 
 Oplossing {.eyebrow.sage}
 
-Verplaats de dialoog naar de Else sectie van het If-blok
+Verplaats de dialogue naar het Else block (voor de respawn code)
