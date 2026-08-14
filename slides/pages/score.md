@@ -60,8 +60,7 @@ _Verwijder daarna het oorspronkelijke If-event: we zien onze levens nu met de ha
 
 ## Score bijhouden
 
-- Hernoem links onder Variable 0 naar Score (rechtsklik >> rename)
-- Globale variabele, want op verschillende plekken nodig (verschillende actoren en scenes)
+Een nieuwe globale variabele maken, want op verschillende plekken nodig (verschillende actoren en scenes)
 
 ---
 
@@ -69,8 +68,9 @@ _Verwijder daarna het oorspronkelijke If-event: we zien onze levens nu met de ha
 
 - Game Scene >> On Init >> Add Event
 - Variables >> Variable Set To Value
-- Variable: Score
+- Variable 2 hernoemen naar Score
 - Value: 0
+- (zet dit na de variabele Lives, netjes bij elkaar)
 
 ---
 
