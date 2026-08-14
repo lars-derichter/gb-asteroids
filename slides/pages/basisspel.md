@@ -128,7 +128,7 @@ _Probeer zelf._
 - Actor Move Relative
 - X: 0 (geen horizontale beweging)
 - Y: 1 (verticaal één stap naar onder)
-- Bovenaan Speed ½ (niet te snel beginnen)
+- Bovenaan Movement Speed ½ (niet te snel beginnen)
 
 ---
 
@@ -142,7 +142,7 @@ Oplossing {.eyebrow.sage}
 
 - On Init >> Add Event
 - Variable >> Math Functions
-- Variable: Global 0 >> hernoem naar Asteroid1_X (hover over de naam en ✎)
+- Variable: Variable 0 (bij Global) >> hernoem naar Asteroid1_X (hover over de naam en ✎)
 - Value: Random
 - Min Value: 0; Max Value: 17
 
@@ -167,15 +167,15 @@ _Je zal merken dat het niet helemaal random is._
 - Meten of de asteroide onderaan is:
   - On Update
   - Add Event >> Actor >> If Actor at Position
-  - X: Tile X (bij Property); Y: 17 (onderste positie)
-- If deel: zelfde als asteroide op random positie zetten
+  - X: Klik op # >> Property >> Tile X; Y: 17 (onderste positie)
+- If deel: Add Event >> zelfde als asteroide op random positie zetten
 - Else deel: Self Move Relative hierin slepen
 
 ---
 
 ## Asteroide respawnt wanneer geraakt
 
-- Collision Group: 1 (= Collide With van Projectile)
+- Collision Group: 1 (= Collide With van Asteroid 1)
 - On Hit >> Group 3 (= Collision Group van Projectile)
 - Add Event >> Display Dialogue:
   - Hit (of Geraakt of …)
