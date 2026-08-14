@@ -57,3 +57,15 @@ caption: Dingen selecteren, toevoegen, verwijderen …
 ---
 
 ## Editor tools
+
+---
+
+### Spelen door op Play icoon te klikken (rechtsbovenaan)
+
+---
+layout: image-full
+image: /player-controls.png
+fit: contain
+eyebrow: Player controls
+caption: Bewegen en dingen doen
+---
