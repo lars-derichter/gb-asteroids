@@ -39,35 +39,29 @@ en 2026.
 
 ## Game op de Fri3d badge krijgen
 
-### Badge 2026
-
-De 2026-badge draait MicroPythonOS met de voorgeïnstalleerde app Retro Core
-Launcher. De micro SD kaart is de betrouwbare weg:
+### SD-kaart
 
 - Formatteer een micro SD kaart als FAT32 (kan op de badge zelf: Settings >>
   Format sdcard FAT32)
-- Maak op de kaart de folder `roms/gb` en kopieer je `.gb` bestand erin
-- Steek de kaart in de badge en open Retro Core Launcher >> Gameboy >> kies je
-  spel
-- De badge herstart in de emulator; met de reset-knop kom je terug in het menu
+- Maak op de kaart de folder roms/gb en kopieer de rom erin
+- Steek de kaart in de badge
 
-Let op: zit er een SD-kaart in de badge, dan toont de launcher enkel de spellen
-op de kaart — de ROMs in het interne geheugen zijn dan onzichtbaar.
+_Zit er een SD-kaart in de badge, dan zie je enkel de spellen op de kaart — de
+ROMs in het interne geheugen zijn dan onzichtbaar._
 
-- [Badge 2026 documentatie](https://fri3dcamp.github.io/badge_2026/badge/)
+---
 
-### Badge 2024 (originele firmware)
+## Met de web-ide
 
-Op een 2024-badge met de originele firmware werkt naast de micro SD kaart ook de
-hotspot:
-
-- Open Retro-Go op de badge
-- X >> Wi-Fi options >> Wi-Fi Access Point (kies een van de SSID's)
-- Verbind je laptop met deze hotspot (paswoord indien gevraagd: retro-go)
-- Surf naar: http://192.168.4.1/
-- Zet je `.gb` bestand in de folder `roms/gb`
-
-https://fri3dcamp.github.io/badge_2024/Retro--Go-Gaming/
+- Verbind de badge met de laptop via USB-C
+- Ga naar de Fri3d IDE: https://fri3dcamp.github.io/Fri3d-IDE/
+- Connect Device (juiste poort selecteren)
+- (Op mac moet je soms nog een driver installeren en toestel herstarten:
+  https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html (het is de blauwe
+  knop))
+- Ga naar de File Manager
+- Open roms >> gb (of roms >> gb >> homebrew)
+- Sleep je rom hierin
 
 ## Eventuele uitbreidingen / volgende stappen
 
