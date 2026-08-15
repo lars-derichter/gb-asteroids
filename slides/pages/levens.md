@@ -100,7 +100,7 @@ Oplossing {.eyebrow.sage}
 
 # Optimalisaties
 
-Vijf dingen die nu nog niet kloppen.
+Vier dingen die nu nog niet kloppen.
 
 ---
 
@@ -113,7 +113,7 @@ De speler staat nog in de Game Over scene.
 Oplossing {.eyebrow.sage}
 
 - Bij On Init (van de Game Over scene)
-- Add Event >> Actor >> Hide All Sprites
+- Add Event >> Actor >> Deactivate Actor
 
 ---
 
@@ -128,14 +128,6 @@ Oplossing {.eyebrow.sage}
 - X: 9
 - Y: 16
 - Direction: 🔼
-
----
-
-## Actor blijft hidden
-
-Oplossing {.eyebrow.sage}
-
-In de Game scene bij On Init: Add Event >> Actor >> Show All Sprites
 
 ---
 
