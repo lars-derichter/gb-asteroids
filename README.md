@@ -7,11 +7,9 @@ en 2026.
 
 - [Slides](https://lars-derichter.github.io/gb-asteroids/): slides bij de
   workshop
-- [Releases](https://github.com/lars-derichter/gb-asteroids/releases): alle
+- [Versions](https://github.com/lars-derichter/gb-asteroids/versions): alle
   tussentijdse versies; als je vastloopt kan je de versie waaraan we werken
-  downloaden en bekijken / verder aanpassen. (Nieuwere versies van GB Studio
-  zetten het project bij het opslaan automatisch om naar het nieuwe
-  projectformaat.)
+  downloaden en bekijken / verder aanpassen.
 
 ## GB Studio
 
