@@ -17,7 +17,6 @@ Van GB Studio naar de badge in je hand.
 - Kies export ROM
 - GB Studio opent de folder met bestanden
 - Het .gb bestand bevat je gecompileerde spel
-- Om plaats te besparen op de badge kan je dit eerst nog zippen (maar moet niet)
 
 ---
 

@@ -39,6 +39,13 @@ en 2026.
 
 ## Game op de Fri3d badge krijgen
 
+### In GB Studio
+
+- Druk rechtsbovenaan op het export icoon
+- Kies export ROM
+- GB Studio opent de folder met bestanden
+- Het .gb bestand bevat je gecompileerde spel
+
 ### SD-kaart
 
 - Formatteer een micro SD kaart als FAT32 (kan op de badge zelf: Settings >>
